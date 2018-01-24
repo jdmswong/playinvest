@@ -16,7 +16,8 @@ class App extends Component<Props, void> {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload. asfdasfasdasdf
+          To get started, edit <code>src/App.js</code> and save to reload.
+          Secret: {process.env.REACT_APP_SECRET}
         </p>
       </div>
     );
